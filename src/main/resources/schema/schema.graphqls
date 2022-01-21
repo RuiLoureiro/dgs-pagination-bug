@@ -1,0 +1,8 @@
+type Query {
+      something: MovieConnection
+}
+
+type Movie @connection {
+    movieID: ID
+    title: String
+}
